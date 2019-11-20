@@ -4,6 +4,9 @@ Created on Wed Nov 20 16:47:33 2019
 
 @author: Gabriel Silva, 100451
 
+
+Function to fit the naive algorithm, since it runs in exponential time and we want to see how long it would take
+to run examples with higher number of vertices
 """
 
 import numpy as np
@@ -25,8 +28,8 @@ class ExpFit():
 
     def plot(self,x,y,x_pred,y_pred):
         plt.figure()
-        plt.plot(x,y,'ko', label ='original data')
-        plt.plot(x_pred,y_pred,'bx', label = 'predicted data')
+        plt.plot(x,y,'ko', label ='Pontos originais')
+        plt.plot(x_pred,y_pred,'bx', label = 'Pontos previstos')
         plt.ylabel('Tempo de execução (Minutos)')
         plt.xlabel('Número de vértices')
         plt.title('Tempo de execução para instâncias de maior dimensão')

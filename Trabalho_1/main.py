@@ -118,8 +118,8 @@ for x in graph:
 
 model = ExpFit()        
 x = np.array([4,6,8,10,11,12,13,14])
-y = np.array([0.000230,0.000541,0.005217,0.009482,0.015446,0.030069,0.034510,0.069203])
-x_predict = np.array([16,18,20,22])
+y = np.array([0.00000387,0.00000344,0.00001233,0.00005354,0.00011403,0.00018866,0.00037996,0.00068606])
+x_predict = np.array([30,35,40,45,50,55,60])
 parameters, covariance = model.fit(x,y)
 y_predicted = model.predict(x_predict, parameters)
 model.plot(x,y,x_predict,y_predicted)
