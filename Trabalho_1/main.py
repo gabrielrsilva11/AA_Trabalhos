@@ -117,9 +117,15 @@ for x in graph:
         i += 1
 
 model = ExpFit()        
+<<<<<<< HEAD
 x = np.array([4,6,8,10,12,14])
 y = np.array([0.00000337,0.00000516,0.00002751,0.00018493,0.00050251,0.00128175])
 x_predict = np.array([16,18,20,22])
+=======
+x = np.array([4,6,8,10,11,12,13,14])
+y = np.array([0.00000387,0.00000344,0.00001233,0.00005354,0.00011403,0.00018866,0.00037996,0.00068606])
+x_predict = np.array([30,35,40,45,50,55,60])
+>>>>>>> cd3527bfc4b09882f28d6c055c42a5fcb0e4b759
 parameters, covariance = model.fit(x,y)
 y_predicted = model.predict(x_predict, parameters)
 model.plot(x,y,x_predict,y_predicted)
