@@ -1,0 +1,335 @@
+
+N_Iteracoes = 100
+Key: l
+Average: 1
+Min: 1
+Max: 2
+Expected value: 8
+Key: h
+Average: 0
+Min: 1
+Max: 2
+Expected value: 0
+Key: a
+Average: 3
+Min: 1
+Max: 6
+Expected value: 24
+Key: e
+Average: 0
+Min: 1
+Max: 2
+Expected value: 0
+Key: c
+Average: 0
+Min: 1
+Max: 2
+Expected value: 0
+Key: i
+Average: 1
+Min: 1
+Max: 5
+Expected value: 8
+Key: r
+Average: 1
+Min: 1
+Max: 2
+Expected value: 8
+Key: o
+Average: 0
+Min: 1
+Max: 2
+Expected value: 0
+Key: d
+Average: 0
+Min: 1
+Max: 2
+Expected value: 0
+Key: g
+Average: 0
+Min: 1
+Max: 1
+Expected value: 0
+Key: s
+Average: 0
+Min: 1
+Max: 2
+Expected value: 0
+Key: v
+Average: 0
+Min: 1
+Max: 2
+Expected value: 0
+Key: b
+Average: 0
+Min: 1
+Max: 2
+Expected value: 0
+
+N_Iteracoes = 1000
+Key: v
+Average: 7
+Min: 4
+Max: 10
+Expected value: 56
+Key: g
+Average: 6
+Min: 4
+Max: 11
+Expected value: 48
+Key: e
+Average: 6
+Min: 1
+Max: 11
+Expected value: 48
+Key: l
+Average: 13
+Min: 8
+Max: 18
+Expected value: 104
+Key: h
+Average: 6
+Min: 3
+Max: 13
+Expected value: 48
+Key: o
+Average: 6
+Min: 3
+Max: 9
+Expected value: 48
+Key: i
+Average: 13
+Min: 9
+Max: 20
+Expected value: 104
+Key: r
+Average: 15
+Min: 12
+Max: 19
+Expected value: 120
+Key: c
+Average: 4
+Min: 3
+Max: 6
+Expected value: 32
+Key: a
+Average: 25
+Min: 19
+Max: 33
+Expected value: 200
+Key: d
+Average: 6
+Min: 4
+Max: 10
+Expected value: 48
+Key: b
+Average: 5
+Min: 3
+Max: 8
+Expected value: 40
+Key: s
+Average: 6
+Min: 3
+Max: 10
+Expected value: 48
+
+N_Iteracoes = 10000
+Key: s
+Average: 66
+Min: 55
+Max: 81
+Expected value: 528
+Key: r
+Average: 129
+Min: 110
+Max: 146
+Expected value: 1032
+Key: d
+Average: 65
+Min: 53
+Max: 81
+Expected value: 520
+Key: a
+Average: 265
+Min: 240
+Max: 284
+Expected value: 2120
+Key: g
+Average: 65
+Min: 51
+Max: 82
+Expected value: 520
+Key: c
+Average: 65
+Min: 57
+Max: 78
+Expected value: 520
+Key: e
+Average: 66
+Min: 46
+Max: 80
+Expected value: 528
+Key: l
+Average: 127
+Min: 109
+Max: 147
+Expected value: 1016
+Key: i
+Average: 136
+Min: 119
+Max: 158
+Expected value: 1088
+Key: b
+Average: 69
+Min: 60
+Max: 78
+Expected value: 552
+Key: h
+Average: 63
+Min: 49
+Max: 75
+Expected value: 504
+Key: o
+Average: 63
+Min: 56
+Max: 72
+Expected value: 504
+Key: v
+Average: 64
+Min: 60
+Max: 80
+Expected value: 512
+
+N_Iteracoes = 100000
+Key: i
+Average: 1315
+Min: 1255
+Max: 1364
+Expected value: 10520
+Key: a
+Average: 2634
+Min: 2582
+Max: 2694
+Expected value: 21072
+Key: d
+Average: 665
+Min: 636
+Max: 747
+Expected value: 5320
+Key: l
+Average: 1309
+Min: 1267
+Max: 1373
+Expected value: 10472
+Key: r
+Average: 1304
+Min: 1269
+Max: 1358
+Expected value: 10432
+Key: b
+Average: 637
+Min: 585
+Max: 662
+Expected value: 5096
+Key: o
+Average: 657
+Min: 626
+Max: 703
+Expected value: 5256
+Key: c
+Average: 654
+Min: 636
+Max: 674
+Expected value: 5232
+Key: g
+Average: 655
+Min: 614
+Max: 699
+Expected value: 5240
+Key: v
+Average: 659
+Min: 612
+Max: 722
+Expected value: 5272
+Key: s
+Average: 652
+Min: 633
+Max: 692
+Expected value: 5216
+Key: h
+Average: 657
+Min: 633
+Max: 708
+Expected value: 5256
+Key: e
+Average: 660
+Min: 632
+Max: 704
+Expected value: 5280
+
+N_Iteracoes = 1000000
+Key: l
+Average: 13178
+Min: 12937
+Max: 13392
+Expected value: 105424
+Key: i
+Average: 13065
+Min: 12890
+Max: 13193
+Expected value: 104520
+Key: a
+Average: 26313
+Min: 25982
+Max: 26567
+Expected value: 210504
+Key: o
+Average: 6597
+Min: 6478
+Max: 6681
+Expected value: 52776
+Key: g
+Average: 6594
+Min: 6473
+Max: 6807
+Expected value: 52752
+Key: h
+Average: 6636
+Min: 6477
+Max: 6718
+Expected value: 53088
+Key: s
+Average: 6523
+Min: 6456
+Max: 6626
+Expected value: 52184
+Key: r
+Average: 13185
+Min: 13042
+Max: 13343
+Expected value: 105480
+Key: c
+Average: 6636
+Min: 6531
+Max: 6711
+Expected value: 53088
+Key: d
+Average: 6598
+Min: 6486
+Max: 6718
+Expected value: 52784
+Key: v
+Average: 6554
+Min: 6467
+Max: 6641
+Expected value: 52432
+Key: e
+Average: 6563
+Min: 6393
+Max: 6759
+Expected value: 52504
+Key: b
+Average: 6559
+Min: 6361
+Max: 6678
+Expected value: 52472

@@ -13,10 +13,10 @@ from ExpFit import ExpFit
 import datetime
 import numpy as np
 
-graph_1 = [[0, 1, 1, 1],
-         [1, 0, 0, 0],
-         [1, 0, 0, 1],
-         [1, 0, 1, 0]]
+graph_1 = [[0,1,1,0],
+           [1,0,0,1],
+           [1,0,0,0],
+           [0,1,0,0]]
 
 graph_2 = [[0,1,1,0,0,1],
            [1,0,0,1,1,1],
@@ -117,8 +117,8 @@ for x in graph:
         i += 1
 
 model = ExpFit()        
-x = np.array([4,6,8,10,11,12,13,14])
-y = np.array([0.000230,0.000541,0.005217,0.009482,0.015446,0.030069,0.034510,0.069203])
+x = np.array([4,6,8,10,12,14])
+y = np.array([0.00000337,0.00000516,0.00002751,0.00018493,0.00050251,0.00128175])
 x_predict = np.array([16,18,20,22])
 parameters, covariance = model.fit(x,y)
 y_predicted = model.predict(x_predict, parameters)

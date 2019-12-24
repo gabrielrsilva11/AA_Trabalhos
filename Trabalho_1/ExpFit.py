@@ -4,6 +4,8 @@ Created on Wed Nov 20 16:47:33 2019
 
 @author: Gabriel Silva, 100451
 
+Function to fit the naive algorithm, since it runs in exponential time and we want to see hw long it would take
+to run graphs with more vertices we create a simple curve to fit our data and predict what we want.
 """
 
 import numpy as np
