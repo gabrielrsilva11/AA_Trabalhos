@@ -18,7 +18,7 @@ class Counters(object):
         self.log_counter = defaultdict()
 
     def get_dicts(self):
-        return self.full_counter, self.prob_counter
+        return self.full_counter, self.prob_counter, self.log_counter
 
     def get_prob(self):
         return random()
@@ -37,6 +37,17 @@ class Counters(object):
                 self.prob_counter[letter] += 1
             else:
                 self.prob_counter[letter] = 1
+        
+        if letter in self.log_counter:
+            prob = self.get_prob()
+            log_prob = 1/(math.pow(2,self.log_counter[letter])+1)
+            if prob < log_prob:
+                self.log_counter[letter] +=1
+        else:
+            self.log_counter[letter] = 1
+
+            
+    
     
     def get_average_dict(self,dictio, n_rep):
         for key,value in dictio.items():
@@ -46,4 +57,5 @@ class Counters(object):
     def print_values(self):
         print(self.full_counter)
         print(self.prob_counter)
+        print(self.log_prob)
         

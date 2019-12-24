@@ -1,0 +1,268 @@
+
+N_Iteracoes = 100
+Key: i
+Average: 3
+Min: 1
+Max: 5
+Expected value: 8.0
+Key: a
+Average: 3
+Min: 2
+Max: 5
+Expected value: 8.0
+Key: b
+Average: 2
+Min: 1
+Max: 4
+Expected value: 4.0
+Key: s
+Average: 2
+Min: 1
+Max: 4
+Expected value: 4.0
+Key: v
+Average: 2
+Min: 1
+Max: 3
+Expected value: 4.0
+Key: o
+Average: 1
+Min: 1
+Max: 3
+Expected value: 2.0
+Key: c
+Average: 1
+Min: 1
+Max: 3
+Expected value: 2.0
+Key: l
+Average: 3
+Min: 2
+Max: 4
+Expected value: 8.0
+Key: r
+Average: 2
+Min: 2
+Max: 4
+Expected value: 4.0
+Key: g
+Average: 1
+Min: 1
+Max: 4
+Expected value: 2.0
+Key: e
+Average: 1
+Min: 1
+Max: 4
+Expected value: 2.0
+Key: h
+Average: 2
+Min: 1
+Max: 3
+Expected value: 4.0
+Key: d
+Average: 2
+Min: 1
+Max: 4
+Expected value: 4.0
+
+N_Iteracoes = 1000
+Key: i
+Average: 6
+Min: 5
+Max: 8
+Expected value: 64.0
+Key: l
+Average: 6
+Min: 5
+Max: 8
+Expected value: 64.0
+Key: d
+Average: 5
+Min: 5
+Max: 6
+Expected value: 32.0
+Key: b
+Average: 5
+Min: 4
+Max: 7
+Expected value: 32.0
+Key: a
+Average: 7
+Min: 6
+Max: 9
+Expected value: 128.0
+Key: h
+Average: 5
+Min: 5
+Max: 7
+Expected value: 32.0
+Key: v
+Average: 5
+Min: 5
+Max: 7
+Expected value: 32.0
+Key: r
+Average: 6
+Min: 5
+Max: 8
+Expected value: 64.0
+Key: g
+Average: 5
+Min: 4
+Max: 6
+Expected value: 32.0
+Key: e
+Average: 5
+Min: 4
+Max: 7
+Expected value: 32.0
+Key: s
+Average: 5
+Min: 5
+Max: 7
+Expected value: 32.0
+Key: o
+Average: 5
+Min: 4
+Max: 7
+Expected value: 32.0
+Key: c
+Average: 6
+Min: 4
+Max: 7
+Expected value: 64.0
+
+N_Iteracoes = 10000
+Key: a
+Average: 10
+Min: 9
+Max: 11
+Expected value: 1024.0
+Key: g
+Average: 9
+Min: 8
+Max: 10
+Expected value: 512.0
+Key: e
+Average: 8
+Min: 7
+Max: 9
+Expected value: 256.0
+Key: l
+Average: 9
+Min: 8
+Max: 11
+Expected value: 512.0
+Key: c
+Average: 8
+Min: 7
+Max: 10
+Expected value: 256.0
+Key: r
+Average: 9
+Min: 9
+Max: 10
+Expected value: 512.0
+Key: h
+Average: 8
+Min: 8
+Max: 10
+Expected value: 256.0
+Key: d
+Average: 8
+Min: 7
+Max: 10
+Expected value: 256.0
+Key: b
+Average: 9
+Min: 7
+Max: 10
+Expected value: 512.0
+Key: i
+Average: 9
+Min: 8
+Max: 10
+Expected value: 512.0
+Key: o
+Average: 8
+Min: 7
+Max: 9
+Expected value: 256.0
+Key: v
+Average: 8
+Min: 7
+Max: 11
+Expected value: 256.0
+Key: s
+Average: 9
+Min: 8
+Max: 10
+Expected value: 512.0
+
+N_Iteracoes = 100000
+Key: v
+Average: 12
+Min: 11
+Max: 14
+Expected value: 4096.0
+Key: h
+Average: 11
+Min: 11
+Max: 13
+Expected value: 2048.0
+Key: r
+Average: 13
+Min: 12
+Max: 14
+Expected value: 8192.0
+Key: g
+Average: 12
+Min: 11
+Max: 13
+Expected value: 4096.0
+Key: l
+Average: 13
+Min: 12
+Max: 14
+Expected value: 8192.0
+Key: i
+Average: 13
+Min: 12
+Max: 14
+Expected value: 8192.0
+Key: a
+Average: 14
+Min: 13
+Max: 15
+Expected value: 16384.0
+Key: e
+Average: 12
+Min: 10
+Max: 13
+Expected value: 4096.0
+Key: o
+Average: 11
+Min: 11
+Max: 13
+Expected value: 2048.0
+Key: b
+Average: 11
+Min: 10
+Max: 13
+Expected value: 2048.0
+Key: d
+Average: 12
+Min: 11
+Max: 14
+Expected value: 4096.0
+Key: s
+Average: 11
+Min: 11
+Max: 13
+Expected value: 2048.0
+Key: c
+Average: 12
+Min: 11
+Max: 14
+Expected value: 4096.0
